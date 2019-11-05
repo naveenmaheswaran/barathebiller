@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27853371162",
+    "firebase_url": "https://ebiller-7b968.firebaseio.com",
+    "project_id": "ebiller-7b968",
+    "storage_bucket": "ebiller-7b968.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27853371162:android:cd26c95a737424ba909ea3",
+        "android_client_info": {
+          "package_name": "com.example.ebiller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27853371162-nj7gtde5d3kjsrd2pv168btni7dst9j8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ebiller",
+            "certificate_hash": "73d4b0dc5d19664ab32ad2569a4d9865b2499666"
+          }
+        },
+        {
+          "client_id": "27853371162-gpo0jc1l4k5hbo2ail0ep9ie0lggqlv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVHqAuGv0m2VU2rimxoajcbM56OQ-nTns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27853371162-gpo0jc1l4k5hbo2ail0ep9ie0lggqlv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

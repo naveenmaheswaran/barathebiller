@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#034342"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bill"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="#86F8FF"
+        android:text="BIll"
+        app:layout_constraintEnd_toEndOf="@+id/bill_home"
+        app:layout_constraintStart_toStartOf="@+id/bill_home"
+        app:layout_constraintTop_toTopOf="@+id/bill_home" />
+
+    <Button
+        android:id="@+id/additem_home"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#86F8FF"
+        android:text="Add item"
+        app:layout_constraintBottom_toBottomOf="@+id/bill_home"
+        app:layout_constraintEnd_toEndOf="@+id/bill"
+        app:layout_constraintStart_toStartOf="@+id/bill"
+        app:layout_constraintTop_toBottomOf="@+id/bill" />
+
+    <ImageView
+        android:id="@+id/bill_home"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:color/background_light" />
+</androidx.constraintlayout.widget.ConstraintLayout>

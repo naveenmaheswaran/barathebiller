@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_item">
+
+    <EditText
+        android:id="@+id/additem_et_productname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Product Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/additem_et_productid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Product ID"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/additem_et_productname"
+        app:layout_constraintStart_toStartOf="@+id/additem_et_productname"
+        app:layout_constraintTop_toBottomOf="@+id/additem_et_productname" />
+
+    <EditText
+        android:id="@+id/additem_et_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Price Per Unit"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/additem_et_productid"
+        app:layout_constraintStart_toStartOf="@+id/additem_et_productid"
+        app:layout_constraintTop_toBottomOf="@+id/additem_et_productid" />
+
+    <EditText
+        android:id="@+id/additem_et_priceunit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Price Unit"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/additem_et_price"
+        app:layout_constraintStart_toStartOf="@+id/additem_et_price"
+        app:layout_constraintTop_toBottomOf="@+id/additem_et_price" />
+
+    <EditText
+        android:id="@+id/additem_et_stock"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Stock "
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/additem_et_priceunit"
+        app:layout_constraintStart_toStartOf="@+id/additem_et_priceunit"
+        app:layout_constraintTop_toBottomOf="@+id/additem_et_priceunit" />
+
+    <EditText
+        android:id="@+id/additem_et_stockunit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Stock Unit"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/additem_et_stock"
+        app:layout_constraintStart_toStartOf="@+id/additem_et_stock"
+        app:layout_constraintTop_toBottomOf="@+id/additem_et_stock" />
+
+    <Button
+        android:id="@+id/additem_b_additem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Add item"
+        app:layout_constraintEnd_toEndOf="@+id/additem_et_stockunit"
+        app:layout_constraintStart_toStartOf="@+id/additem_et_stockunit"
+        app:layout_constraintTop_toBottomOf="@+id/additem_et_stockunit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
